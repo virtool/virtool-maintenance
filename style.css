@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/inter-v12-latin-regular.woff2') format('woff2'),
+    url('/fonts/inter-v12-latin-regular.woff') format('woff'),
+    url('/fonts/inter-v12-latin-regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url('./fonts/inter-v12-latin-500.woff2') format('woff2'), url('./fonts/inter-v12-latin-500.woff') format('woff'), url('./fonts/inter-v12-latin-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/inter-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/inter-v12-latin-700.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+    font-family: 'Inter', 'Ubuntu', sans-serif;
+    font-size: 22px;
+    padding: 5rem 5rem;
+}
+
+h1 {
+    color: rgb(19 78 74);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(240 253 250);
+    font-weight: 500;
+}
+
+article {
+    color: rgb(15 118 110);
+    display: flex;
+    gap: 5rem;
+    text-align: left;
+    max-width: 52rem;
+    margin: 0;
+}
+
+a {
+    color: #dc8100;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    width: 10rem;
+    opacity: 0.7;
+}
+
